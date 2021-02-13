@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "loveletters-adde8": {
+      "hosting": {
+        "loveletters2": [
+          "loveletters-adde8"
+        ]
+      }
+    }
+  }
+}

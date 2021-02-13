@@ -1,0 +1,26 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark cyan" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Kranz-Bianca</a></mdb-navbar-brand>
+
+    <!-- Collapsible content -->
+    <links>
+
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink='createmessage'>
+                    <mdb-icon fas icon="envelope"></mdb-icon> Add message<span class="sr-only"></span></a>
+            </li>
+
+            <!-- Dropdown -->
+        </ul>
+        <!-- Links -->
+    </links>
+    <!-- Collapsible content -->
+
+</mdb-navbar>
+
+<router-outlet></router-outlet>
+<!--/.Navbar-->
